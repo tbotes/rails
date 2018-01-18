@@ -15,12 +15,12 @@ services:
 
 addons:
   postgresql: "9.6"
-  chrome: stable
   apt:
     sources:
       - sourceline: "ppa:mc3man/trusty-media"
       - sourceline: "ppa:ubuntuhandbook1/apps"
     packages:
+      - google-chrome-stable
       - ffmpeg
       - mupdf
       - mupdf-tools
